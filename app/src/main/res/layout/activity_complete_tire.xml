@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Complete_tire">
+
+    <EditText
+        android:id="@+id/txttirecomplete"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="#002984"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:fontFamily="@font/chewy"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Completion of Tire Changing"
+        android:textColor="#4bb543"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/acme"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="New Tire Code"
+        android:textColor="#002984"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageButton
+        android:id="@+id/btntirecomplete"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttirecomplete"
+        app:srcCompat="@drawable/icons8_checkmark_64" />
+</androidx.constraintlayout.widget.ConstraintLayout>

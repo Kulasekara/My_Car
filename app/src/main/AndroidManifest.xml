@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_car_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MY CAR"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MY_CAR_APP">
+        <activity
+            android:name=".information"
+            android:exported="true" />
+        <activity
+            android:name=".Add1"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_tire"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_belt"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_emission"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_licence"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_insurance"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_fuel"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_gear"
+            android:exported="true" />
+        <activity
+            android:name=".Complete_Oil_Service"
+            android:exported="true" />
+        <activity
+            android:name=".Update"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Details5new"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Details5old"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Details5"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Details4"
+            android:exported="true" />
+        <activity android:name=".AddFinish" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
